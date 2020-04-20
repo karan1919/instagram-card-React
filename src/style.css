@@ -1,0 +1,91 @@
+@import url("https://rsms.me/inter/inter.css");
+
+html,
+body,
+#root {
+  font-family: "Inter", sans-serif;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+}
+
+.card {
+  width: 500px;
+  height: 700px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center center;
+}
+
+img {
+  height: 400px;
+  width: 498px;
+  border-radius: inherit;
+}
+
+button {
+  border-style: none;
+  background-color: white;
+}
+
+.oneLineDiv {
+  display: flex;
+  padding: 5px;
+}
+
+.aboveCounter {
+  height: 50px;
+}
+
+.userName {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.userCaption {
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+.likeButton {
+  overflow: auto;
+  height: 30px;
+  width: 30px;
+  padding: 5px 5px 5px 5px;
+}
+
+.likeCounter {
+  width: 50px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.viewCommentsButton {
+  margin: 5px 5px 5px 5px;
+  padding: 0px 0px 20px 5px;
+}
+
+.commentsBox {
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.commentAuthor {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.commentText {
+  font-size: 14px;
+  padding-left: 5px;
+  white-space: pre-line;
+}
